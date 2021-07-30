@@ -1,0 +1,48 @@
+h1{
+    font-size: 30px !important;
+}
+
+h1:hover{
+    text-transform:uppercase;
+    background-color: cyan !important;
+}
+
+button{
+    font-size: 20px !important;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+canvas{
+    animation-name:Canva_S;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Canva_S{
+    from{
+        box-shadow:1px 1px 20px chartreuse;
+    }
+    to{
+        box-shadow:1px 1px 38px red;
+    }
+}
+
+h1{
+    animation-name:label_title;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes label_title{
+    from{
+       background-color:rgb(255, 153, 0);
+       color:aqua;
+    }
+    to{
+        background-color:rgb(238, 255, 0);
+        color: blue;
+    }
+}
