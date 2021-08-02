@@ -6,7 +6,7 @@ function preload() {
 }
 
 function setup() {
-    canvas = createCanvas(370, 370)
+    canvas = createCanvas(400, 400)
     canvas.center()
     Video = createCapture(VIDEO)
     Video.hide()
@@ -15,7 +15,7 @@ function setup() {
 }
 
 function draw() {
-    image(Video, 0, 0, 370, 370)
+    image(Video, 0, 0, 400, 400)
     image(MImage, MousX, MousY, 40, 40)
 }
 
